@@ -1,8 +1,31 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+	  <Version>0.0.1</Version>
+	  <FileVersion>0.0.1.0</FileVersion>
+	  <AssemblyName>Gtk4DotNet.FSharp</AssemblyName>
+	  <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <Authors>Uwe Riegel</Authors>
+	  <Company>Uwe Riegel</Company>		
+	  <Description>.NET 8 F# Bindings for GTK 4, functional declarative similar to REACT or Kotlin Compose</Description>    
+  	<PackageLicenseUrl></PackageLicenseUrl>
+	  <PackageProjectUrl>https://github.com/uriegel/Gtk4DotNet.FSharp</PackageProjectUrl>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <PackageTags>DotNet GTK4 F#</PackageTags>
+	  <PackageReleaseNotes></PackageReleaseNotes>
+  	<PackageReadmeFile>README.md</PackageReadmeFile>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
+  <PropertyGroup>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE" Pack="true" PackagePath="" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
