@@ -1,0 +1,184 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Tester/1.0.0": {
+        "dependencies": {
+          "FSharp.Core": "8.0.100",
+          "Gtk4DotNet.FSharp": "1.0.0"
+        },
+        "runtime": {
+          "Tester.dll": {}
+        }
+      },
+      "CsTools/5.9.1": {
+        "dependencies": {
+          "LinqTools": "5.5.0"
+        },
+        "runtime": {
+          "lib/net6.0/CsTools.dll": {
+            "assemblyVersion": "5.9.1.0",
+            "fileVersion": "5.9.1.0"
+          }
+        }
+      },
+      "FSharp.Core/8.0.100": {
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.1.23.52306"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Gtk4DotNet/3.0.0": {
+        "dependencies": {
+          "CsTools": "5.9.1"
+        },
+        "runtime": {
+          "lib/net8.0/Gtk4DotNet.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "LinqTools/5.5.0": {
+        "dependencies": {
+          "System.Linq.Async": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/LinqTools.dll": {
+            "assemblyVersion": "5.5.0.0",
+            "fileVersion": "5.5.0.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Linq.Async/6.0.1": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Linq.Async.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1.35981"
+          }
+        }
+      },
+      "Gtk4DotNet.FSharp/1.0.0": {
+        "dependencies": {
+          "FSharp.Core": "8.0.100",
+          "Gtk4DotNet": "3.0.0"
+        },
+        "runtime": {
+          "Gtk4DotNet.FSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tester/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsTools/5.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F8oJw1DOfPPdteYkDpTGS6Zx2utkfIwrUdA0xZZaxMo7a7T44iBtmUemtdoRiYrG7yVX98mB1VXyy9Lm0IOlug==",
+      "path": "cstools/5.9.1",
+      "hashPath": "cstools.5.9.1.nupkg.sha512"
+    },
+    "FSharp.Core/8.0.100": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WX/sXsl+QPo0cYch84dSQy/N1oqqzJZjmjOronOdbzFHBsTcHTlGMk0UhYeVouJmv5zhejlPlTmNA+c1gmiSPw==",
+      "path": "fsharp.core/8.0.100",
+      "hashPath": "fsharp.core.8.0.100.nupkg.sha512"
+    },
+    "Gtk4DotNet/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bKZk7fkebbHQxd6EhhawpiCpolQDn/U4maV6MxOhq+9R0twqvSLZm35M1Xn8xtno01gGVU+In6JMf3hM+T77DA==",
+      "path": "gtk4dotnet/3.0.0",
+      "hashPath": "gtk4dotnet.3.0.0.nupkg.sha512"
+    },
+    "LinqTools/5.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LvCu6p7zeSh1jvFvgpJ7yGsspV0qe/LDFbp5TuOj8gIvLkTLUqA8Lij1M0K0eKvv4YHtx7xxoOenu2S4qVf2Qw==",
+      "path": "linqtools/5.5.0",
+      "hashPath": "linqtools.5.5.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
+      "path": "microsoft.bcl.asyncinterfaces/6.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512"
+    },
+    "System.Linq.Async/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YhHcaroWpQ9UCot3Pizah7ryAzQhNvobLMSxeDIGmnXfkQn8u5owvpOH0K6EVB+z9L7u6Cc4W17Br/+jyttEQ==",
+      "path": "system.linq.async/6.0.1",
+      "hashPath": "system.linq.async.6.0.1.nupkg.sha512"
+    },
+    "Gtk4DotNet.FSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6akGIfnqQ9SH1Kcplu8o8olEpypBNiMVl6x68c/nN8PZbpCXTZNKWPx3gdiynAoEmCdcg4PsqRVVP0i+8S72Sw==",
+  "success": true,
+  "projectFilePath": "/daten/Projekte/Gtk4DotNet.FSharp/Gtk4DotNet.FSharp/Gtk4DotNet.FSharp.fsproj",
+  "expectedPackageFiles": [
+    "/home/uwe/.nuget/packages/cstools/5.9.1/cstools.5.9.1.nupkg.sha512",
+    "/home/uwe/.nuget/packages/fsharp.core/8.0.100/fsharp.core.8.0.100.nupkg.sha512",
+    "/home/uwe/.nuget/packages/gtk4dotnet/3.0.0/gtk4dotnet.3.0.0.nupkg.sha512",
+    "/home/uwe/.nuget/packages/linqtools/5.5.0/linqtools.5.5.0.nupkg.sha512",
+    "/home/uwe/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "/home/uwe/.nuget/packages/system.linq.async/6.0.1/system.linq.async.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

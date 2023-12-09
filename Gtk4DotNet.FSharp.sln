@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tester", "Tester\Tester.fsproj", "{2D434BC4-7BC1-421F-87BA-DF94203BCD8B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Gtk4DotNet.FSharp", "Gtk4DotNet.FSharp\Gtk4DotNet.FSharp.fsproj", "{4CB72CFF-2BA2-4216-AF6C-60305B8A9D24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D434BC4-7BC1-421F-87BA-DF94203BCD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D434BC4-7BC1-421F-87BA-DF94203BCD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D434BC4-7BC1-421F-87BA-DF94203BCD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D434BC4-7BC1-421F-87BA-DF94203BCD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB72CFF-2BA2-4216-AF6C-60305B8A9D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB72CFF-2BA2-4216-AF6C-60305B8A9D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB72CFF-2BA2-4216-AF6C-60305B8A9D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB72CFF-2BA2-4216-AF6C-60305B8A9D24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
